@@ -4,7 +4,7 @@ pipeline{
         pollSCM('*/5 * * * *')
     }
     stages{
-       stage('SCM Checkout'){
+       stage('SCM naveen'){
           steps{
              echo 'SCM Checkout'
   		     git credentialsId: 'GitHubCredentials', url: 'https://github.com/harilearning1989/SpringReadWriteFiles.git'
