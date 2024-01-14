@@ -44,7 +44,7 @@ pipeline{
     }
 	post{
 		always{
-			echo 'this will run always'
+			echo 'this is samara'
 		}
 		success{
 			echo 'this will run success'
