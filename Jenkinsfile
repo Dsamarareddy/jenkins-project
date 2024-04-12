@@ -41,6 +41,11 @@ pipeline{
             echo 'deploying the application'
         }
       }
+	stage('deploy to k8s'){
+          steps{
+            echo 'deploying the application on k8s'
+        }
+      }    
     }
 	post{
 		always{
